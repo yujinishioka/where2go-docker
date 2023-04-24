@@ -18,7 +18,7 @@ RUN echo "GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO
 # Cria um diretório padrão
 RUN mkdir /app
 
-# Copiar api para o Docker
+# Copiar api para o diretório padrão
 COPY /api /app
 
 # Expõe a porta padrão do PostgreSQL
