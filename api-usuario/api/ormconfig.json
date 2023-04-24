@@ -1,0 +1,13 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "admin_where2go",
+    "password": "where2go",
+    "database": "where2go",
+    "entities": [
+      "src/entities/*.ts"
+    ],
+    "synchronize": true
+  }
+  

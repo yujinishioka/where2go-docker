@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-auth {
+  height: 100vh;
+  position: relative;
+  color: #000;
+  font-family: 'Poppins';
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  height: 270px;
+  background-color: #202857;
+}
+
+.logo img {
+  width: 350px;
+}
+
+#form-auth {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  padding: 50px;
+  text-align: center;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #202857;
+}
+
+input,
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Poppins';
+  color: #FFF;
+  background-color: #202857;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.9);
+  transition: 0.2s;
+}
